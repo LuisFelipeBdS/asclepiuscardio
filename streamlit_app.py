@@ -280,9 +280,6 @@ def main_page():
     # Chatbot interaction
     st.markdown("<h1 style='color: green;'>Asclepius DSGU</h1>", unsafe_allow_html=True)
 
-    # Display the HTML and JavaScript code
-    html(js_code, height=100)
-
     st.header("Descreva o caso clínico. Digite PRONTO quando terminar.")
     if prompt := st.text_area("Luis:", height=200):
         if prompt.strip().upper() != "PRONTO" and prompt.strip().upper() != "PRESCRIÇÃO":
