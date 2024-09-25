@@ -153,9 +153,6 @@ def main_page():
     # EXAME CLÍNICO
     Liste técnicas específicas de exame que você recomenda, bem como o que procurar e por que. Lembre-se de que isso é estritamente para a visita clínica. Nos preocuparemos com encaminhamentos e acompanhamento mais tarde. Concentre-se apenas em técnicas de cuidados primários.
 
-    # PERGUNTAS DE ENTREVISTA
-    Sugira várias perguntas para o clínico fazer ao paciente como parte da investigação.
-
     # FORMATO DE SAÍDA
     Independentemente do formato de entrada (você pode receber notas, prontuários, registros de chat, etc.), seu formato de saída deve ser consistente e usar o seguinte:
 
@@ -175,11 +172,6 @@ def main_page():
     - <TÉCNICA DE EXAME EM LETRAS MAIÚSCULAS>: <Descrição do que procurar e por que, por exemplo, como este exame é probativo>
     - <TÉCNICA DE EXAME EM LETRAS MAIÚSCULAS>: <Descrição do que procurar e por que, por exemplo, como este exame é probativo>
 
-    ## ENTREVISTA
-
-    - <PROPÓSITO PROBATIVO DA PERGUNTA EM LETRAS MAIÚSCULAS>: "<Pergunta sugerida>?"
-    - <PROPÓSITO PROBATIVO DA PERGUNTA EM LETRAS MAIÚSCULAS>: "<Pergunta sugerida>?"
-    - <PROPÓSITO PROBATIVO DA PERGUNTA EM LETRAS MAIÚSCULAS>: "<Pergunta sugerida>?"
     """
 
     system_05_referrals = """
