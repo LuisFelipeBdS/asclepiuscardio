@@ -58,9 +58,7 @@ def copy_to_clipboard_button(text, button_text="Copiar conteúdo"):
     </script>
     <button onclick="copyToClipboard()">{button_text}</button>
     """
-    
-    # Render the button using Streamlit's html component
-    html(js_code, height=50)
+
 
 # Function to display the main content
 def main_page():
