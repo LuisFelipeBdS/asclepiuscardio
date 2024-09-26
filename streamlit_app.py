@@ -151,7 +151,7 @@ def main_page():
     Visão, audição, olfato, tato (palpação) e outros testes clínicos. Quais sentidos o profissional médico deve estar atento? Dadas as notas, seja específico e probativo em suas recomendações. Certifique-se de explicar o que procurar, bem como por que isso pode ser útil.
 
     # EXAME CLÍNICO
-    Liste técnicas específicas de exame que você recomenda, bem como o que procurar e por que. Lembre-se de que isso é estritamente para a visita clínica. Nos preocuparemos com encaminhamentos e acompanhamento mais tarde. Concentre-se apenas em técnicas de cuidados primários.
+    Liste técnicas específicas de exame que você recomenda, bem como o que procurar e por que. Lembre-se de que isso é estritamente para a visita clínica. Nos preocuparemos com encaminhamentos e acompanhamento mais tarde. Concentre-se apenas em técnicas da urologia e nefrologia.
 
     # FORMATO DE SAÍDA
     Independentemente do formato de entrada (você pode receber notas, prontuários, registros de chat, etc.), seu formato de saída deve ser consistente e usar o seguinte:
