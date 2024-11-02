@@ -150,7 +150,8 @@ def main_page(client):
 
     # Text Input for Clinical Case
     st.header("Describe the clinical case. Type 'PRONTO' when done.")
-    if prompt := st.text_area("Luis:", height=200, expand=True):
+    prompt = st.text_area("Luis:", height=200, max_chars=1000)
+    if prompt:
         if prompt.strip().upper() not in ["PRONTO", "PRESCRIÇÃO"]:
             st.session_state.user_messages.append(prompt)
             st.session_state.all_messages.append(f'Luis: {prompt}')
